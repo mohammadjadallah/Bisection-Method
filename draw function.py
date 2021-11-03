@@ -24,39 +24,3 @@ ax.spines['bottom'].set_position('center')
 plot(x, y, 'r', linestyle=':')
 plot(res[0], f(res[0]), 'ko')
 show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''def my_plot(a, b, c, d):
-    x = arange(0, 5+1)
-    y = [((a * i ** 3) - (b * i ** 2) + c * i - d) for i in x]
-    fig = figure()
-    title('Plot Function')
-    grid()
-    ax = fig.add_subplot(1, 1, 1)
-    ax.spines['left'].set_position('center')
-    ax.spines['bottom'].set_position('center')
-    ax.spines['right'].set_color('none')
-    ax.spines['top'].set_color('none')
-    ax.xaxis.set_ticks_position('bottom')
-    ax.yaxis.set_ticks_position('left')
-    plot(x, y, lineStyle='-', color='r')
-    legend([[x,y]])
-    show()
-
-my_plot(5, 5, 6, 2)'''
